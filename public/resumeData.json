@@ -150,6 +150,7 @@
     ]
   },
   "testimonials":{
+    "show": false,
     "testimonials":[
       {
         "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",

@@ -257,6 +257,11 @@ blockquote cite a:visited { color: #8B9798; border: none }
    content: none;
 }
 
+.text-white {
+   color: white;
+   font-weight: bold;
+}
+
 /* Abbreviations */
 abbr {
    font-family: 'opensans-bold', sans-serif;
