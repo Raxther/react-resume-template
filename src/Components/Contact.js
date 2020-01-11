@@ -59,17 +59,10 @@ class Contact extends Component {
 
          </div>
 
-         <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-            <input type="text" name="contactName" />
-            <input type="email" name="contactEmail" />
-            <input name="contactSubject" />
-            <textarea name="contactMessage" ></textarea>
-         </form>
-
          <div className="row">
             <div className="eight columns">
 
-               <form onSubmit={this.handleSubmit} id="contactForm" name="contactForm">
+               <form onSubmit={this.handleSubmit} id="contactForm" name="contactForm" data-netlify="true" data-netlify-honeypot="bot-field">
 					<fieldset>
 
                   <div>
