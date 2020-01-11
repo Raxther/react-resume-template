@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 
+const encode = (data) => {
+   return Object.keys(data)
+       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+       .join("&");
+ }
+
 class Contact extends Component {
 
    constructor(props) {
@@ -11,7 +17,7 @@ class Contact extends Component {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: JSON.stringify({ "form-name": "contactForm", ...this.state })
+        body: encode({ "form-name": "contactForm", ...this.state })
       })
         .then(() => alert("Success!"))
         .catch(error => alert(error));
@@ -52,6 +58,13 @@ class Contact extends Component {
             </div>
 
          </div>
+
+         <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+            <input type="text" name="contactName" />
+            <input type="email" name="contactEmail" />
+            <input name="contactSubject" />
+            <textarea name="contactMessage" ></textarea>
+         </form>
 
          <div className="row">
             <div className="eight columns">
