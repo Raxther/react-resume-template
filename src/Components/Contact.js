@@ -36,7 +36,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="POST" id="contactForm" name="contactForm" netlify netlify-honeypot="bot-field" hidden>
+               <form action="" method="POST" id="contactForm" name="contactForm" netlify netlify-honeypot="bot-field">
 					<fieldset>
 
                   <div>
