@@ -46,7 +46,7 @@ class Stats extends Component {
      })
       this.timerID = setInterval(
          () => this.tick(), 
-            100 
+         50 
          ); 
       } 
   
@@ -71,7 +71,7 @@ class Stats extends Component {
                      <p>{this.state.age.label} : {this.state.age.value} ans</p>
                   </li>
                   <li key={'country'}>
-                     <p>Nombre de pays visité : <a href='#'>12</a></p>
+                     <p>Nombre de pays visité : <a href='https://drive.google.com/open?id=1F2muJyT1tmVR-lgCW1obckKC_2b55QV1&usp=sharing'>12</a></p>
                   </li>
                   <li key={'current'}>
                      <p>Ville actuelle : Lyon</p> {//to do : relier à l'api

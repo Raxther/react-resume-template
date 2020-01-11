@@ -55,33 +55,33 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Liste non exhaustives de mes competences ... :D",
     "education":[
       {
         "school":"Polytech Grenoble",
         "degree":"Diplome d'ingénieur en informatique",
         "graduated":"Septembre 2016",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Gestion d'une équipe de 3 personnes pour la réalisation d'une application web de jestion de projet interne"
       },
       {
-        "school":"",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Lycée Camille Claudel",
+        "degree":"Baccaloréat Scientifique",
+        "graduated":"juin 2010",
+        "description":"Suivi d'une classe préparatoire aux grandes écoles"
       }
     ],
     "work":[
       {
         "company":"SFR",
-        "title":"Frony End Developper",
+        "title":"Front End Developper",
         "years":"Juillet 2017 - Maintenant",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Gestion d'une équipe de 3 personnes pour la réalisation d'une application web de gestion de projet interne"
       },
       {
         "company":"Timy start up",
         "title":"CTO",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "years":"Septembre 2016 - Juillet 2017",
+        "description":"Mission effectué en tant qu'indépendant en parralèlle d'autres missions principalement axées sur le développement d'applications web et mobile"
       }
     ],
     "skills":[
@@ -111,33 +111,21 @@
     "projects": [
       {
         "title":"Meximieux",
-        "category":"My Travel Blog for my post-university travels",
+        "category":"Site d'informations pour un cabinet de psycomotricité",
         "image":"canadian-wanderlust.jpg",
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Les Alchimistes",
+        "category":"Site vitrine pour une association de danseurs",
         "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"#"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"TimyApp",
+        "category":"(offline now) une application mobile deliveroo-like",
         "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"#"
       }
     ]
   },
@@ -149,7 +137,7 @@
         "user":"Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "text":"That Rama Codazzi must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
         "user":"Steve Wozniak... impersonator"
       }
     ]

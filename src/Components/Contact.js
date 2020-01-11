@@ -19,8 +19,8 @@ class Contact extends Component {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contactForm", ...this.state })
       })
-        .then(() => alert("Success!"))
-        .catch(error => alert(error));
+        .then(() => alert("Votre message a bien été envoyé :)"))
+        .catch(() => alert("Une erreur est survenue"));
 
       e.preventDefault();
     };
@@ -47,7 +47,7 @@ class Contact extends Component {
 
             <div className="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span>Me contacter.</span></h1>
 
             </div>
 
@@ -58,7 +58,6 @@ class Contact extends Component {
             </div>
 
          </div>
-
          <div className="row">
             <div className="eight columns">
 
@@ -66,7 +65,7 @@ class Contact extends Component {
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
+						   <label htmlFor="contactName">Nom <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
@@ -76,17 +75,17 @@ class Contact extends Component {
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label htmlFor="contactSubject">Sujet</label>
 						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="70" rows="10" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button className="submit" type="submit">Submit</button>
+                     <button className="submit" type="submit">Envoyer</button>
                   </div>
 					</fieldset>
 				   </form>
@@ -96,7 +95,7 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4>Addresse</h4>
 					   <p className="address">
 						   {name}<br />
 						   {street} <br />
