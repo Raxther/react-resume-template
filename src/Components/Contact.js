@@ -1,6 +1,26 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+
+   constructor(props) {
+      super(props);
+      this.state = {};
+    }
+
+   handleSubmit = e => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: JSON.stringify({ "form-name": "contactForm", ...this.state })
+      })
+        .then(() => alert("Success!"))
+        .catch(error => alert(error));
+
+      e.preventDefault();
+    };
+
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
   render() {
 
     if(this.props.data){
@@ -36,7 +56,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="POST" id="contactForm" name="contactForm" netlify netlify-honeypot="bot-field">
+               <form onSubmit={this.handleSubmit} id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
