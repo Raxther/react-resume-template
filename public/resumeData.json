@@ -5,7 +5,7 @@
     "description":"Je suis passionné par les technologies webs et mobiles",
     "image":"profilepic2.jpg",
     "bio":"Je suis developpeur depuis maintenant 3ans, dont une année en indépendant. En ce moment, je travaille pour SFR à Lyon et je gère une équipe de 3 personnes avec un collègue. À côté de cela, j’aime les danses urbaines (hip hop), les sports collectifs et la musique.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Si vous avez des questions, n'hésitez pas à me contacter",
     "email": "ramacoda@gmail.com",
     "phone": "0123456789",
     "address":{
@@ -72,14 +72,14 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
+        "company":"SFR",
+        "title":"Frony End Developper",
+        "years":"Juillet 2017 - Maintenant",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
+        "company":"Timy start up",
+        "title":"CTO",
         "years":"March 2007 - February 2010",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
@@ -90,35 +90,27 @@
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"80%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"40%"
       },
       {
         "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
         "name":"MongoDB",
-        "level":"80%"
+        "level":"20%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
+        "title":"Meximieux",
         "category":"My Travel Blog for my post-university travels",
         "image":"canadian-wanderlust.jpg",
         "url":"https://www.canadianwanderlust.com"
