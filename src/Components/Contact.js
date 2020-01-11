@@ -85,7 +85,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit" type="submit">Envoyer</button>
+                     <button className="submit" type="submit" disabled={!this.state.contactMessage || !this.state.contactEmail || !this.state.contactName}>Envoyer</button>
                   </div>
 					</fieldset>
 				   </form>
