@@ -4,7 +4,7 @@ import * as firebase from 'firebase';
 class Stats extends Component {
 
  config = {
-      apiKey: "AIzaSyAb-cMk3KUsRQcB2sEElEhcKwRvvHS6ofQ",
+      apiKey: process.env.REACT_API_KEY,
       authDomain: "pill-me-up.firebaseapp.com",
       databaseURL: "https://pill-me-up.firebaseio.com",
       projectId: "pill-me-up",

@@ -1,6 +1,6 @@
 {
-  "name": "personalportfolio",
-  "version": "0.1.0",
+  "name": "codazzirama",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "firebase": "^7.6.2",
