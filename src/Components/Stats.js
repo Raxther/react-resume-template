@@ -36,14 +36,18 @@ class Stats extends Component {
     };
 
     componentDidMount() { 
-      this.messagesRef.once('value', snapshot => {
-         let visitors;
-         visitors = snapshot.val()
-         let updates = {};
-         updates['/visitors/'] = visitors + 1;
-         firebase.database().ref().update(updates);
-         this.setState({visitors : visitors + 1});
-     })
+      if(!localStorage.getItem('newVisitor') === 'true'){
+         this.messagesRef.once('value', snapshot => {
+            let visitors;
+            visitors = snapshot.val()
+            let updates = {};
+            updates['/visitors/'] = visitors + 1;
+            firebase.database().ref().update(updates);
+            localStorage.setItem('newVisitor', 'true')
+            this.setState({visitors : visitors + 1});
+        })
+      }
+
       this.timerID = setInterval(
          () => this.tick(), 
          50 
