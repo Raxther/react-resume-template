@@ -80,12 +80,12 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                     <label htmlFor="contactMessage">Message</label>
                      <textarea cols="70" rows="10" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button className="submit" type="submit" disabled={!this.state.contactMessage || !this.state.contactEmail || !this.state.contactName}>Envoyer</button>
+                     <button className="submit" type="submit" disabled={!this.state.contactEmail || !this.state.contactName}>Envoyer</button>
                   </div>
 					</fieldset>
 				   </form>
