@@ -4,7 +4,7 @@
     "occupation":"Fullstack developpeur",
     "description":"Je suis passionné par les technologies webs et mobiles",
     "image":"profilepic2.jpg",
-    "bio":"Je suis developpeur depuis maintenant 3ans, dont une année en indépendant. En ce moment, je travaille pour SFR à Lyon et je gère une équipe de 3 personnes avec un collègue. À côté de cela, j’aime les danses urbaines (hip hop), les sports collectifs et la musique.",
+    "bio":"Je suis développeur depuis maintenant 3ans, dont une année en indépendant. En ce moment, je travaille pour SFR à Lyon et je gère une équipe de 3 personnes avec un collègue. À côté de cela, j’aime les danses urbaines (hip hop), les sports collectifs et la musique.",
     "contactmessage":"Si vous avez des questions, n'hésitez pas à me contacter",
     "email": "ramacoda@gmail.com",
     "phone": "0123456789",
@@ -61,7 +61,7 @@
         "school":"Polytech Grenoble",
         "degree":"Diplome d'ingénieur en informatique",
         "graduated":"Septembre 2016",
-        "description":"Gestion d'une équipe de 3 personnes pour la réalisation d'une application web de jestion de projet interne"
+        "description":"Gestion d'une équipe de 3 personnes pour la réalisation d'une application web de gestion de projet interne"
       },
       {
         "school":"Lycée Camille Claudel",
@@ -81,7 +81,7 @@
         "company":"Timy start up",
         "title":"CTO",
         "years":"Septembre 2016 - Juillet 2017",
-        "description":"Mission effectué en tant qu'indépendant en parralèlle d'autres missions principalement axées sur le développement d'applications web et mobile"
+        "description":"Mission effectuée en tant qu'indépendant en parallèle d'autres missions principalement axées sur le développement d'applications web et mobile"
       }
     ],
     "skills":[
