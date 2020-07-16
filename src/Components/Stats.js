@@ -71,9 +71,6 @@ class Stats extends Component {
 
             <div className="ten columns flex-container text-white">
                   <ul className="slides">
-                  <li key={this.state.age.label}>
-                     <p>{this.state.age.label} : {this.state.age.value} ans</p>
-                  </li>
                   <li key={'country'}>
                      <p>Nombre de pays visité : <a href='https://drive.google.com/open?id=1F2muJyT1tmVR-lgCW1obckKC_2b55QV1&usp=sharing'>12</a></p>
                   </li>
